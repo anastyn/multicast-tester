@@ -1,4 +1,4 @@
-### MULTICAST Tester application
+### MULTICAST Testing tool
 Allows to test sending and receiving of MULTICAST text messages in your network.
 Supports multiple senders and receivers.
 
