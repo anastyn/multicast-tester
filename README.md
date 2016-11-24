@@ -7,18 +7,23 @@ What is IP multicast: https://en.wikipedia.org/wiki/IP_multicast
 Supported parameters:
 
 1. --sender `(optional)`
+
    Run the application in Sender mode. Will allow to send new messages to the joined group.
 
 2. --group=[group_ip]
+
    The multicast group. Read more here: http://www.tldp.org/HOWTO/Multicast-HOWTO-2.html
 
 3. --port=[port_number]
+
    The port number. Random by default.
 
 4. --interface=[interface] `(optional)`
+
    Useful on hosts with multiple network interfaces, if you want to use other than the system default.
 
 5. --ttl=[number] `(optional)`
+
    Controls the scope of the multicasts. Should be between 0 and 255.
    The default value is 1, which limits the scope of the messages to the hosts subnet.
    The list of possible values:
