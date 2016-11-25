@@ -9,6 +9,7 @@ Supported parameters:
 1. --sender `(optional)`
 
    Run the application in Sender mode. Will allow to send new messages to the joined group.
+   The application runs as a RECEIVER by default.
 
 2. --group=[group_ip]
 
